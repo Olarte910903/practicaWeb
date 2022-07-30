@@ -1,0 +1,90 @@
+body {
+    background: #ffbe8e;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background:#573360;
+    margin-bottom: 15px;
+    border-radius: 14px;
+    justify-content: space-between;
+}
+
+.head img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 1em;
+    box-shadow: 5px 5px 20px black;
+}
+
+.head p{
+    color: #ff7d85;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    margin-right: 14px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.body{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.body .loki{
+    display: flex;
+    width: 280px;
+    height: 400px;
+    background: #573360;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 1em;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 3px 10px black;
+}
+
+.loki img{
+    width: 10em;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.loki p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    color: #ff7d85;
+    text-shadow: 2px 2px 2px black;
+}
+
+.body .mama{
+    display: flex;
+    width: 280px;
+    height: 400px;
+    background: #573360;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 1em;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 3px 10px black;
+}
+
+.mama img{
+    width: 10em;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.mama p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    color: #ff7d85;
+    text-shadow: 2px 2px 2px black;
+}
